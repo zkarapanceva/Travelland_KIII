@@ -1,0 +1,79 @@
+﻿@model Travelland.Domain.DTO.UserReservationsDto
+@using Microsoft.Extensions.Options
+@inject IOptions<Travelland.Domain.StripeSettings> Stripe
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+
+    <div class="row m-5">
+        @*<a asp-action="ReserveNow" class="btn btn-success">Complete the reservation!</a>*@
+
+         @if (Model.TotalPrice != 0)
+        {
+            <form asp-controller="UserReservations" asp-action="PayOrder" method="post">
+                <article>
+                    <script src="https://checkout.stripe.com/checkout.js"
+                            
+                            class="stripe-button"
+                            data-key="@Stripe.Value.PublishableKey"
+                            data-locale="auto"
+                            data-description="Travelland Application Payment"
+                            data-amount="@(Model.TotalPrice * 100)"
+                            data-label="Pay $@Model.TotalPrice">
+                    </script>
+                </article>
+            </form>
+        }
+    </div>
+
+    <div class="row m-5">
+        <table class="table table-hover table-info table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Offer Destination</th>
+                  <th scope="col">Quantity</th>
+                  <th scope="col">Offer Price</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                  @if (Model.OfferInUserReservations.Count == 0)
+                    {
+                        <tr>
+                            <td colspan="5">No active Offers</td>
+                        </tr>
+                    }
+                    else
+                    {
+                        @for (int i=0;i<Model.OfferInUserReservations.Count;i++)
+                        {
+                            var item = Model.OfferInUserReservations[i];
+                            <tr>
+                                <th scope="row">@(i+1)</th>
+                                <td>@item.Offer.OfferDestination</td>
+                                <td>@item.Quantity</td>
+                                <td>@item.Offer.OfferPrice</td>
+                                <td><a asp-controller="UserReservations" asp-action="DeleteOfferFromReservations" asp-route-id="@item.id" class="btn btn-danger">Delete</a></td>
+                            </tr>
+                        }
+                    }
+            </tbody>
+                <tr>
+                    <th scope="col">Total Price: </th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col">@Model.TotalPrice €</th>
+                </tr>
+            <tfoot>
+
+            </tfoot>
+            </table>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Domain\bin\Debug\netcoreapp3.1\Travelland.Domain.deps.json
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Domain\bin\Debug\netcoreapp3.1\Travelland.Domain.dll
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Domain\bin\Debug\netcoreapp3.1\Travelland.Domain.pdb
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Domain\obj\Debug\netcoreapp3.1\Travelland.Domain.csproj.AssemblyReference.cache
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Domain\obj\Debug\netcoreapp3.1\Travelland.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Domain\obj\Debug\netcoreapp3.1\Travelland.Domain.AssemblyInfoInputs.cache
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Domain\obj\Debug\netcoreapp3.1\Travelland.Domain.AssemblyInfo.cs
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Domain\obj\Debug\netcoreapp3.1\Travelland.Domain.csproj.CoreCompileInputs.cache
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Domain\obj\Debug\netcoreapp3.1\Travelland.Domain.dll
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Domain\obj\Debug\netcoreapp3.1\Travelland.Domain.pdb
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Domain\bin\Debug\netcoreapp3.1\Travelland.Domain.runtimeconfig.json
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Domain\bin\Debug\netcoreapp3.1\Travelland.Domain.runtimeconfig.dev.json
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Domain\obj\Debug\netcoreapp3.1\Travelland.Domain.genruntimeconfig.cache

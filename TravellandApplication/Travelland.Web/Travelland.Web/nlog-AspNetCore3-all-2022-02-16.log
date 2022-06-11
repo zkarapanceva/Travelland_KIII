@@ -1,0 +1,272 @@
+2022-02-16 01:01:09.6801|0|DEBUG|Travelland.Web.Program|init main 
+2022-02-16 01:01:11.0250|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-02-16 01:01:11.0250|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-02-16 01:01:11.0250|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 01:01:11.0250|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 01:01:11.0250|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zoric\source\repos\TravellandApplication\Travelland.Web 
+2022-02-16 01:04:28.6721|0|DEBUG|Travelland.Web.Program|init main 
+2022-02-16 01:04:29.7035|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-02-16 01:04:29.7035|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-02-16 01:04:29.7035|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 01:04:29.7035|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 01:04:29.7035|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zoric\source\repos\TravellandApplication\Travelland.Web 
+2022-02-16 01:04:36.5827|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'Travelland.Services.Interface.IReservationService' while attempting to activate 'Travelland.Web.Controllers.API.AdminController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-16 01:06:19.6276|0|DEBUG|Travelland.Web.Program|init main 
+2022-02-16 01:06:20.6805|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-02-16 01:06:20.6843|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-02-16 01:06:20.6843|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 01:06:20.6843|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 01:06:20.6843|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zoric\source\repos\TravellandApplication\Travelland.Web 
+2022-02-16 01:08:59.6212|0|DEBUG|Travelland.Web.Program|init main 
+2022-02-16 01:09:00.7357|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-02-16 01:09:00.7357|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-02-16 01:09:00.7357|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 01:09:00.7357|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 01:09:00.7357|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zoric\source\repos\TravellandApplication\Travelland.Web 
+2022-02-16 01:09:06.7771|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.Text.Json.JsonException: A possible object cycle was detected which is not supported. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.JsonSerializer.Write(Utf8JsonWriter writer, Int32 originalWriterDepth, Int32 flushThreshold, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteAsyncCore(Stream utf8Json, Object value, Type inputType, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-16 01:22:03.7471|0|DEBUG|Travelland.Web.Program|init main 
+2022-02-16 01:22:04.7759|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-02-16 01:22:04.7759|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-02-16 01:22:04.7759|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 01:22:04.7759|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 01:22:04.7759|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zoric\source\repos\TravellandApplication\Travelland.Web 
+2022-02-16 01:26:18.1138|0|DEBUG|Travelland.Web.Program|init main 
+2022-02-16 01:26:19.2571|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-02-16 01:26:19.2571|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-02-16 01:26:19.2571|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 01:26:19.2571|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 01:26:19.2571|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zoric\source\repos\TravellandApplication\Travelland.Web 
+2022-02-16 02:06:11.6368|0|DEBUG|Travelland.Web.Program|init main 
+2022-02-16 02:06:13.5360|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-02-16 02:06:13.5360|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-02-16 02:06:13.5441|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 02:06:13.5441|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 02:06:13.5441|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zoric\source\repos\TravellandApplication\Travelland.Web 
+2022-02-16 09:07:02.6414|0|DEBUG|Travelland.Web.Program|init main 
+2022-02-16 09:07:05.1594|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-02-16 09:07:05.1676|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-02-16 09:07:05.1676|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 09:07:05.1676|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 09:07:05.1676|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zoric\source\repos\TravellandApplication\Travelland.Web 
+2022-02-16 12:45:17.9706|0|DEBUG|Travelland.Web.Program|init main 
+2022-02-16 12:45:19.5273|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-02-16 12:45:19.5273|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-02-16 12:45:19.5360|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 12:45:19.5360|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 12:45:19.5360|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zoric\source\repos\TravellandApplication\Travelland.Web 
+2022-02-16 12:46:54.2891|0|DEBUG|Travelland.Web.Program|init main 
+2022-02-16 12:46:55.7498|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-02-16 12:46:55.7498|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-02-16 12:46:55.7552|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 12:46:55.7552|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 12:46:55.7552|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zoric\source\repos\TravellandApplication\Travelland.Web 
+2022-02-16 12:47:29.8148|0|INFO|Travelland.Services.Implementation.OfferService|GetAllOffers executing.. 
+2022-02-16 12:47:40.0009|0|INFO|Travelland.Services.Implementation.OfferService|GetAllOffers executing.. 
+2022-02-16 12:47:49.8679|0|INFO|Travelland.Services.Implementation.OfferService|GetAllOffers executing.. 
+2022-02-16 12:47:56.4391|0|INFO|Travelland.Services.Implementation.OfferService|Offer was successfully added to Reservations! 
+2022-02-16 12:47:56.4449|0|INFO|Travelland.Services.Implementation.OfferService|GetAllOffers executing.. 
+2022-02-16 12:48:00.1097|0|INFO|Travelland.Services.Implementation.OfferService|Offer was successfully added to Reservations! 
+2022-02-16 12:48:00.1149|0|INFO|Travelland.Services.Implementation.OfferService|GetAllOffers executing.. 
+2022-02-16 12:48:05.5812|0|INFO|Travelland.Services.Implementation.OfferService|GetAllOffers executing.. 
+2022-02-16 14:20:46.3710|0|DEBUG|Travelland.Web.Program|init main 
+2022-02-16 14:20:48.0515|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-02-16 14:20:48.0607|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-02-16 14:20:48.0607|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 14:20:48.0607|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 14:20:48.0607|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zoric\source\repos\TravellandApplication\Travelland.Web 
+2022-02-16 14:20:56.6506|0|INFO|Travelland.Services.Implementation.OfferService|GetAllOffers executing.. 
+2022-02-16 14:21:06.7890|0|INFO|Travelland.Services.Implementation.OfferService|GetAllOffers executing.. 
+2022-02-16 14:21:12.4200|0|INFO|Travelland.Services.Implementation.OfferService|Offer was successfully added to Reservations! 
+2022-02-16 14:21:12.4326|0|INFO|Travelland.Services.Implementation.OfferService|GetAllOffers executing.. 
+2022-02-16 14:24:36.8012|0|INFO|Travelland.Services.Implementation.OfferService|GetAllOffers executing.. 
+2022-02-16 14:24:46.2992|0|INFO|Travelland.Services.Implementation.OfferService|GetAllOffers executing.. 
+2022-02-16 14:25:01.4668|0|INFO|Travelland.Services.Implementation.OfferService|GetAllOffers executing.. 
+2022-02-16 14:25:07.8625|0|INFO|Travelland.Services.Implementation.OfferService|GetAllOffers executing.. 
+2022-02-16 14:25:11.3462|0|INFO|Travelland.Services.Implementation.OfferService|GetAllOffers executing.. 
+2022-02-16 14:25:17.8837|0|INFO|Travelland.Services.Implementation.OfferService|GetAllOffers executing.. 
+2022-02-16 14:55:09.5673|0|DEBUG|Travelland.Web.Program|init main 
+2022-02-16 14:55:11.1453|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-02-16 14:55:11.1453|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-02-16 14:55:11.1453|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 14:55:11.1453|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 14:55:11.1453|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zoric\source\repos\TravellandApplication\Travelland.Web 
+2022-02-16 14:55:16.6973|0|INFO|Travelland.Services.Implementation.OfferService|GetAllOffers executing.. 
+2022-02-16 15:00:17.1429|0|DEBUG|Travelland.Web.Program|init main 
+2022-02-16 15:00:18.8350|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-02-16 15:00:18.8350|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-02-16 15:00:18.8350|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 15:00:18.8350|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 15:00:18.8350|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zoric\source\repos\TravellandApplication\Travelland.Web 
+2022-02-16 15:00:29.5323|0|INFO|Travelland.Services.Implementation.OfferService|GetAllOffers executing.. 
+2022-02-16 15:03:51.0285|0|DEBUG|Travelland.Web.Program|init main 
+2022-02-16 15:03:52.5426|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-02-16 15:03:52.5426|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-02-16 15:03:52.5426|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 15:03:52.5426|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 15:03:52.5426|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zoric\source\repos\TravellandApplication\Travelland.Web 
+2022-02-16 15:03:56.3399|0|INFO|Travelland.Services.Implementation.OfferService|GetAllOffers executing.. 
+2022-02-16 15:09:16.9491|0|DEBUG|Travelland.Web.Program|init main 
+2022-02-16 15:09:18.4392|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-02-16 15:09:18.4461|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-02-16 15:09:18.4461|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 15:09:18.4461|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 15:09:18.4461|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zoric\source\repos\TravellandApplication\Travelland.Web 
+2022-02-16 15:27:13.3113|0|DEBUG|Travelland.Web.Program|init main 
+2022-02-16 15:27:13.7674|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-02-16 15:27:13.7720|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-02-16 15:27:13.7720|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 15:27:13.7720|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 15:27:13.7720|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zoric\source\repos\TravellandApplication\Travelland.Web 
+2022-02-16 15:27:22.0440|0|DEBUG|Travelland.Web.Program|init main 
+2022-02-16 15:27:23.6641|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-02-16 15:27:23.6641|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-02-16 15:27:23.6641|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 15:27:23.6641|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 15:27:23.6641|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zoric\source\repos\TravellandApplication\Travelland.Web 
+2022-02-16 15:29:06.4417|0|DEBUG|Travelland.Web.Program|init main 
+2022-02-16 15:29:07.9317|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-02-16 15:29:07.9317|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-02-16 15:29:07.9421|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 15:29:07.9421|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 15:29:07.9421|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zoric\source\repos\TravellandApplication\Travelland.Web 
+2022-02-16 15:31:16.9091|0|DEBUG|Travelland.Web.Program|init main 
+2022-02-16 15:31:18.5336|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-02-16 15:31:18.5399|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-02-16 15:31:18.5399|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 15:31:18.5399|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 15:31:18.5399|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zoric\source\repos\TravellandApplication\Travelland.Web 
+2022-02-16 15:34:53.9552|0|DEBUG|Travelland.Web.Program|init main 
+2022-02-16 15:34:55.8260|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-02-16 15:34:55.8346|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-02-16 15:34:55.8346|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 15:34:55.8346|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 15:34:55.8346|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zoric\source\repos\TravellandApplication\Travelland.Web 
+2022-02-16 15:36:42.7657|0|DEBUG|Travelland.Web.Program|init main 
+2022-02-16 15:36:44.4212|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-02-16 15:36:44.4277|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-02-16 15:36:44.4277|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 15:36:44.4277|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 15:36:44.4277|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zoric\source\repos\TravellandApplication\Travelland.Web 
+2022-02-16 15:41:05.8234|0|DEBUG|Travelland.Web.Program|init main 
+2022-02-16 15:41:07.5929|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-02-16 15:41:07.5992|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-02-16 15:41:07.5992|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 15:41:07.5992|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 15:41:07.5992|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zoric\source\repos\TravellandApplication\Travelland.Web 
+2022-02-16 15:45:17.4494|0|DEBUG|Travelland.Web.Program|init main 
+2022-02-16 15:45:19.3462|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-02-16 15:45:19.3532|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-02-16 15:45:19.3532|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 15:45:19.3532|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 15:45:19.3532|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zoric\source\repos\TravellandApplication\Travelland.Web 
+2022-02-16 15:47:18.8190|0|INFO|Travelland.Services.Implementation.OfferService|GetAllOffers executing.. 
+2022-02-16 15:47:33.8408|0|INFO|Travelland.Services.Implementation.OfferService|GetAllOffers executing.. 
+2022-02-16 15:47:43.7350|0|INFO|Travelland.Services.Implementation.OfferService|GetAllOffers executing.. 
+2022-02-16 15:47:56.2452|0|INFO|Travelland.Services.Implementation.OfferService|Offer was successfully added to Reservations! 
+2022-02-16 15:47:56.2452|0|INFO|Travelland.Services.Implementation.OfferService|GetAllOffers executing.. 
+2022-02-16 15:48:02.3935|0|INFO|Travelland.Services.Implementation.OfferService|GetAllOffers executing.. 
+2022-02-16 15:48:06.6052|20102|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (18ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Int32), @p2='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [OfferInUserReservations] ([id], [Quantity], [UserReservationsId])
+VALUES (@p0, @p1, @p2); 
+2022-02-16 15:48:06.6939|10000|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'Travelland.Repository.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_OfferInUserReservations'. Cannot insert duplicate key in object 'dbo.OfferInUserReservations'. The duplicate key value is (d6ef4ec1-9936-4579-50e4-08d9f1422292).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:981bc538-7116-4499-a6e1-4afb586f2822
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess) Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_OfferInUserReservations'. Cannot insert duplicate key in object 'dbo.OfferInUserReservations'. The duplicate key value is (d6ef4ec1-9936-4579-50e4-08d9f1422292).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:981bc538-7116-4499-a6e1-4afb586f2822
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)

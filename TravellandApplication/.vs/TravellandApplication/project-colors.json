@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1a572c51-8449-4493-a5f1-c778a5649b19": {
+      "ProjectGuid": "1a572c51-8449-4493-a5f1-c778a5649b19",
+      "DisplayName": "Travelland.Web",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "185134f0-afd9-4aa8-801c-adaf1d21325d": {
+      "ProjectGuid": "185134f0-afd9-4aa8-801c-adaf1d21325d",
+      "DisplayName": "Travelland.Domain",
+      "ColorIndex": 1
+    },
+    "57e4392d-18b2-49f9-ac73-4ff0ad6fd7bb": {
+      "ProjectGuid": "57e4392d-18b2-49f9-ac73-4ff0ad6fd7bb",
+      "DisplayName": "Travelland.Repository",
+      "ColorIndex": 2
+    },
+    "3c03b5b2-4625-4c00-8fb1-fc274cf37529": {
+      "ProjectGuid": "3c03b5b2-4625-4c00-8fb1-fc274cf37529",
+      "DisplayName": "Travelland.Domain",
+      "ColorIndex": 3
+    },
+    "64a63b96-8eae-4eb5-ba03-f888df5da76f": {
+      "ProjectGuid": "64a63b96-8eae-4eb5-ba03-f888df5da76f",
+      "DisplayName": "Travelland.Services",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

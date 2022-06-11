@@ -1,0 +1,16 @@
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Repository\obj\Debug\netcoreapp3.1\Travelland.Repository.csproj.AssemblyReference.cache
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Repository\obj\Debug\netcoreapp3.1\Travelland.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Repository\obj\Debug\netcoreapp3.1\Travelland.Repository.AssemblyInfoInputs.cache
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Repository\obj\Debug\netcoreapp3.1\Travelland.Repository.AssemblyInfo.cs
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Repository\obj\Debug\netcoreapp3.1\Travelland.Repository.csproj.CoreCompileInputs.cache
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Repository\bin\Debug\netcoreapp3.1\Travelland.Repository.deps.json
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Repository\bin\Debug\netcoreapp3.1\Travelland.Repository.dll
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Repository\bin\Debug\netcoreapp3.1\Travelland.Repository.pdb
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Repository\bin\Debug\netcoreapp3.1\Travelland.Domain.dll
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Repository\bin\Debug\netcoreapp3.1\Travelland.Domain.pdb
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Repository\obj\Debug\netcoreapp3.1\Travelland.Repository.csproj.CopyComplete
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Repository\obj\Debug\netcoreapp3.1\Travelland.Repository.dll
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Repository\obj\Debug\netcoreapp3.1\Travelland.Repository.pdb
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Repository\bin\Debug\netcoreapp3.1\Travelland.Repository.runtimeconfig.json
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Repository\bin\Debug\netcoreapp3.1\Travelland.Repository.runtimeconfig.dev.json
+C:\Users\zoric\source\repos\TravellandApplication\Travelland.Repository\obj\Debug\netcoreapp3.1\Travelland.Repository.genruntimeconfig.cache

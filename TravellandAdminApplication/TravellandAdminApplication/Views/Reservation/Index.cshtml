@@ -1,0 +1,40 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model List<TravellandAdminApplication.Models.Reservation>
+
+<div class="container">
+
+    <div class="row m-5">
+        <table class="table table-hover table-info table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Client Details</th>
+                  <th scope="col">Number of offers</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                    var item = Model[i];
+
+                    <tr>
+                        <th scope="row">@(i+1)</th>
+                        <td>@item.Client.Email</td>
+                        <td>@item.Offers.Count()</td>
+                        <td><a class="btn btn-outline-secondary" asp-action="Details" asp-route-id="@item.id">Details</a></td>
+                        <td><a class="btn btn-outline-secondary" asp-action="CreateInvoice" asp-route-id="@item.id">Create Invoice</a></td>
+                    </tr>
+
+                }
+            </tbody>
+
+            </table>
+    </div>
+</div>
+
